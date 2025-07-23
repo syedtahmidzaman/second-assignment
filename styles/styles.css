@@ -26,10 +26,23 @@
 .font-color{
     color: #E95A08;
 }
+.font-color2{
+  color: #8987A1;
+}
 
-.navbar, .banner{
+.navbar, .banner,.plants-card{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+
+.btn-primary{
+background-color: #E95A08;
+color: white;
+padding: 20px 80px;
+font-weight: 600;
+font-size: 1rem;
+border: none;
 }
 
 /* .navbar-styles */
@@ -105,9 +118,48 @@ margin: 30px;
   }
   .banner-descrip{
     font-weight: 400px;
-    font-size: 1.8rem;
-    color: #8987A1;
+    font-size: 1.5rem;
+  
     
+  }
+
+  /* .plants-style */
+  .our-plants{
+    max-width: 850px;
+    margin: 0  auto;
+    text-align: center;
+  }
+
+
+
+
+  .plant-taitle{
+    font-weight: bold;
+    font-size: 3.3rem;
+  }
+
+
+  .plant-des{
+    font-weight: 400px;
+    font-weight: 1.5rem;
+  }
+
+
+  /* .plant-card */
+
+  .plants-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  }
+
+  .plant-nam{
+    font-weight: 500px;
+    font-size: 22px;
+  }
+  .price{
+    font-weight: bolder;
+    font-size: 22px;
   }
 
 
@@ -123,11 +175,6 @@ margin: 30px;
        flex-direction:column-reverse;
     }
 
-    .banner-title{
-      font-size:2.5rem;
-    }
-   .banner-descrip{
-    font-size: 1rem;
-   }
+    
    
   }
