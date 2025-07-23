@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.noto-serif-Noto-Serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <400px>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-Inter{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400px>;
+  font-style: normal;
+}
+
+
+/* .shared-style */
+.font-color{
+    color: #E95A08;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* .navbar-styles */
+
+.logo{
+    max-width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display:flex ;
+
+}
+
+.nav-item{
+
+list-style: none;
+margin: 30px;
+}
+.home{
+    font-weight:bold;
+    color: black;   
+}
+.nav-link{
+    text-decoration: none;
+    color: #8987A1;
+
+
+}
+
+/* .shoping_cart */
+
+
+.shoping-cart{
+    display: flex;
+    align-items: center;
+    
+    
+    }
+
+.cart{
+    color: black;
+    
+}
+
+.img-cart{
+    width: 24px;
+    height: 24px;
+}
+
+/* .banner-style */
+  
+
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding-top: 221px;
+  }
+
+ 
+  .banner-img{
+    max-width: 100%;
+  }
+  .banner-title{
+    font-weight: bold;
+    font-size:5rem ;
+  }
+  .banner-descrip{
+    font-weight: 400px;
+    font-size: 1.8rem;
+    color: #8987A1;
+    
+  }
+
+
+
+
+
+  @media screen and (max-width: 576px ) {
+    .quary{
+      display: none;
+    }
+    .banner{
+       padding-top: 20px;
+       flex-direction:column-reverse;
+    }
+
+    .banner-title{
+      font-size:2.5rem;
+    }
+   .banner-descrip{
+    font-size: 1rem;
+   }
+   
+  }
