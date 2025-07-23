@@ -126,8 +126,9 @@ margin: 30px;
   /* .plants-style */
   .our-plants{
     max-width: 850px;
-    margin: 0  auto;
+    margin: 0 auto;
     text-align: center;
+    margin-bottom: 50px;
   }
 
 
@@ -150,7 +151,11 @@ margin: 30px;
   .plants-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+    gap: 30px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  
   }
 
   .plant-nam{
@@ -164,7 +169,7 @@ margin: 30px;
 
 
 
-
+/* .medium size device */
 
   @media screen and (max-width: 576px ) {
     .quary{
@@ -173,6 +178,13 @@ margin: 30px;
     .banner{
        padding-top: 20px;
        flex-direction:column-reverse;
+    }
+    
+
+    .plants-card{
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 0px;
+    padding-right: 0px;
     }
 
     
