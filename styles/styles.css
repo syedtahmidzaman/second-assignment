@@ -5,10 +5,10 @@
 .noto-serif-Noto-Serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <400px>;
+  font-weight:400px;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -17,7 +17,7 @@
 .work-sans-Inter{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <400px>;
+  font-weight:400px;
   font-style: normal;
 }
 
@@ -29,9 +29,13 @@
 .font-color2{
   color: #8987A1;
 }
+.font-color3{
+  color: white;
+}
 
-.navbar, .banner,.plants-card{
-    max-width: 1440px;
+
+.body{
+     max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -40,7 +44,7 @@
 background-color: #E95A08;
 color: white;
 padding: 20px 80px;
-font-weight: 600;
+font-weight: 600px;
 font-size: 1rem;
 border: none;
 }
@@ -63,7 +67,7 @@ border: none;
 
 .nav-item{
 
-list-style: none;
+  list-style: none;
 margin: 30px;
 }
 .home{
@@ -83,18 +87,20 @@ margin: 30px;
 .shoping-cart{
     display: flex;
     align-items: center;
-    
-    
-    }
+  
+ }
 
 .cart{
     color: black;
+
     
 }
 
+
+
 .img-cart{
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
 }
 
 /* .banner-style */
@@ -108,12 +114,18 @@ margin: 30px;
     padding-top: 221px;
   }
 
+  .banner-content{
+    max-width: 850px;
+      margin: 0  auto;
+  }
+
+
  
   .banner-img{
-    max-width: 100%;
+    width: 100%;
   }
   .banner-title{
-    font-weight: bold;
+    font-weight: 700px;
     font-size:5rem ;
   }
   .banner-descrip{
@@ -153,9 +165,7 @@ margin: 30px;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-  
+    
   }
 
   .plant-nam{
@@ -169,24 +179,185 @@ margin: 30px;
 
 
 
+
+
+
+  /* .Flower-Plants-Lover-style */
+  .flowre-lover-img{
+    display: flex;
+  }
+ 
+  .trusted-badge{
+    width: 286px;
+    height: 286px;
+    margin-top: -100px;
+    margin-left: -150px;
+  }
+.Flower-Plants-Lover{
+  display: flex;
+  margin-top: 210px;
+}
+.flowre-lover-titel{
+  font-weight: 700px;
+  font-size: 3.1rem;
+}
+.flowre-lover-des{
+  font-weight: 400px;
+  font-size: 1.3rem;
+  
+}
+.des-gap{
+  margin-bottom: 20px;
+
+}
+
+/* .latest-deals-styles */
+
+.latest-deals{
+  text-align: center;
+}
+.Latest-Deals-title{
+  font-weight: 700px;
+  font-size: 3.1rem;
+}
+.latest-deals-des{
+  font-weight: 400px;
+  font-size: 1.3rem;
+  margin-bottom: 120px;
+}
+
+.bloom-plant{
+  background-image:url(../image/deal-bloom.png);
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 201px;
+  border-radius: 25px;
+  filter: brightness(80%);
+}
+.Bloom{
+  position: relative;
+  top: 65px;
+  text-align: center;
+}
+.ana-plan{
+  background-image: url(../image/deal-ana.png);
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 201px;
+  border-radius: 25px;
+  filter: brightness(80%);
+  
+}
+.Ana{
+  position: relative;
+  top: 65px;
+  text-align: center;
+}
+.zabo-plant{
+  background-image: url(../image/deal-zabo.png);
+   background-repeat: no-repeat;
+   width: 753px;
+  height: 423px;
+  border-radius: 10px;
+  filter: brightness(80%);
+  margin-top: 15px;
+
+  
+}
+.Zabo{
+  position: relative;
+  top: 172px;
+  text-align: center;
+  
+}
+.title{
+  font-weight: 700px;
+  font-size: 1.25rem;
+}
+.Zabo-title{
+  font-weight: 700px;
+  font-size: 2.5rem;
+}
+.shop{
+  font-weight: 600px;
+  font-size: 1rem;
+
+}
+.shop-1{
+  font-weight: 600px;
+  font-size: 1.75rem;
+}
+.Latest-Deals-cart{
+  display: flex;
+  gap: 28px;
+  
+}
 /* .medium size device */
 
   @media screen and (max-width: 576px ) {
+   
+   
+  
     .quary{
-      display: none;
+      display:none;
     }
+    
+ 
+    .nav-item{
+    margin: 0%;
+    padding-right: 16px;
+  }
+    
     .banner{
        padding-top: 20px;
        flex-direction:column-reverse;
     }
     
+    .banner-title{
+      font-size: 2rem;
+    }
+  .our-plants, .latest-deals{
+    padding-left: 130px;
+    /* font-size: 1.5rem; */
+  }
+  .plant-des{
+    font-size: 1rem;
+  }
+
 
     .plants-card{
       grid-template-columns: repeat(2, 1fr);
-      padding-left: 0px;
-    padding-right: 0px;
+      
+    }
+    .trusted-badge{
+      display: none;
+    }
+    .Flower-Plants-Lover{
+      flex-direction: column;
     }
 
-    
-   
+    .Latest-Deals-cart{
+      display: grid;
+      grid-template-columns: repeat(1 1fr);
+      padding-left: 100px;
+    }
+    .zabo-plant{
+      width: 367px;
+    height: 201px; }
+   .Zabo{
+    position: relative;
+    top: 65px;
+    text-align: center;
+   }
+   .Zabo-title{
+  font-weight: 700px;
+  font-size: 1.25rem;
+}
+.shop-1{
+  font-weight: 600px;
+  font-size: 1rem;
   }
+  .Latest-Deals-title{
+    font-size: 2rem;
+  }
+}
