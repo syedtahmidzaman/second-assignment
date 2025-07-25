@@ -462,8 +462,6 @@
   .store-img{
     width: 358px;
     height: 398px;
-    padding-left: 18px;
-    
   }
 
   .trusted-badge {
@@ -479,7 +477,6 @@
   .Latest-Deals-cart {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 15px;
     gap: 10px;
   }
   .latest-deals-des{
