@@ -473,15 +473,19 @@
   .Flower-Plants-Lover {
     flex-direction: column;
     margin-top: 41px;
+    
   }
 
   .Latest-Deals-cart {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* padding-left: 100px; */
+    padding-left: 15px;
+    gap: 10px;
   }
   .latest-deals-des{
     margin-bottom: 50px;
+    padding-left: 18px;
+    gap: 20px;
   }
 
   .zabo-plant {
