@@ -253,7 +253,7 @@
   text-align: center;
 }
 
-.ana-plan {
+.ana-plant {
   background-image: url(../image/deal-ana.png);
   background-repeat: no-repeat;
   width: 367px;
@@ -441,11 +441,7 @@
     grid-template-columns: repeat(2, 1fr);
 
   }
-/* 
-  .plant-card{
-    width: 171px;
-    height: 50px;
-  } */
+
    .btn-primary{
     width: 171px;
     height: 50px;
